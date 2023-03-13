@@ -28,7 +28,7 @@
                 "type": "buy",
                 "trigger": 25000,
                 "up_price": 30000,
-                "low_price": 26000
+                "low_price": 26000,
                 "leverage": 3,
                 "atr": 330
             }
