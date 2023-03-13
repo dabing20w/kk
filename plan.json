@@ -1,36 +1,36 @@
 {
     "sops": [
         {
-            "BTC_ZD_SELL": {
-                "sysbol": "BTCUSDT",
-                "type": "sell",
-                "trigger": 20269,
-                "up_price": 20295,
-                "low_price": 19768,
-                "leverage": 3,
-                "atr": 330
-            }
-        },
-        {
-            "BTC_ZD_BUY": {
+            "BTC_ZD_UP_20230313": {
                 "sysbol": "BTCUSDT",
                 "type": "buy",
-                "trigger": 19828,
-                "up_price": 20295,
-                "low_price": 19768,
+                "trigger": 22000,
+                "up_price": 25000,
+                "low_price": 20000,
                 "leverage": 3,
                 "atr": 330
             }
         },
         {
-            "ETH_ZD_SELL": {
-                "sysbol": "ETHUSDT",
+            "BTC_ZD_DOWN": {
+                "sysbol": "BTCUSDT",
                 "type": "sell",
-                "trigger": 1448,
-                "up_price": 1478,
-                "low_price": 1384,
+                "trigger": 25000,
+                "up_price": 26000,
+                "low_price": 20000,
                 "leverage": 3,
-                "atr": 28
+                "atr": 330
+            }
+        },
+        {
+            "BTC_BULL": {
+                "sysbol": "BTCUSDT",
+                "type": "buy",
+                "trigger": 25000,
+                "up_price": 30000,
+                "low_price": 26000
+                "leverage": 3,
+                "atr": 330
             }
         },
         {
@@ -45,34 +45,45 @@
             }
         },
         {
-            "BNB_ZD_SELL": {
-                "sysbol": "BNBUSDT",
-                "type": "sell",
-                "trigger": 274,
-                "up_price": 278,
-                "low_price": 265,
-                "leverage": 3,
-                "atr": 5
-            }
-        },
-        {
-            "BNB_ZD_BUY": {
-                "sysbol": "BNBUSDT",
+            "ETH_BULL_UP": {
+                "sysbol": "ETHUSDT",
                 "type": "buy",
-                "trigger": 267,
-                "up_price": 278,
-                "low_price": 265,
+                "trigger": 1750,
+                "up_price": 2500,
+                "low_price": 1500,
+                "leverage": 3,
+                "atr": 30
+            }
+        },
+        {
+            "ETH_CB_DOWN": {
+                "sysbol": "ETHUSDT",
+                "type": "sell",
+                "trigger": 2000,
+                "up_price": 1750,
+                "low_price": 2150,
                 "leverage": 3,
                 "atr": 5
             }
         },
         {
-            "LTC_ZD_SELL": {
-                "sysbol": "BNBUSDT",
+            "LTC_CB_UP": {
+                "sysbol": "LTCUSDT",
+                "type": "buy",
+                "trigger": 85,
+                "up_price": 100,
+                "low_price": 75,
+                "leverage": 3,
+                "atr": 5.6
+            }
+        }
+        ,{
+            "LTC_CB_DOWN": {
+                "sysbol": "LTCUSDT",
                 "type": "sell",
-                "trigger": 80,
-                "up_price": 83,
-                "low_price": 69,
+                "trigger": 100,
+                "up_price": 85,
+                "low_price": 110,
                 "leverage": 3,
                 "atr": 5.6
             }
