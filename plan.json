@@ -65,6 +65,18 @@
                 "leverage": 3,
                 "atr": 5
             }
+        },
+        {
+            "LTC_ZD_SELL": {
+                "sysbol": "BNBUSDT",
+                "type": "sell",
+                "trigger": 80,
+                "up_price": 83,
+                "low_price": 69,
+                "leverage": 3,
+                "atr": 5.6
+            }
         }
+        
     ]
 }
