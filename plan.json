@@ -12,17 +12,6 @@
             }
         },
         {
-            "BTC_ZD_DOWN": {
-                "sysbol": "BTCUSDT",
-                "type": "sell",
-                "trigger": 25000,
-                "up_price": 26000,
-                "low_price": 20000,
-                "leverage": 3,
-                "atr": 330
-            }
-        },
-        {
             "BTC_BULL": {
                 "sysbol": "BTCUSDT",
                 "type": "buy",
