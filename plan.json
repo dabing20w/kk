@@ -23,7 +23,7 @@
             }
         },
         {
-            "BNB_ZD_BUY": {
+            "ETH_ZD_BUY": {
                 "sysbol": "ETHUSDT",
                 "type": "buy",
                 "trigger": 1385,
@@ -70,13 +70,45 @@
             "LTC_CB_DOWN": {
                 "sysbol": "LTCUSDT",
                 "type": "sell",
-                "trigger": 100,
-                "up_price": 85,
-                "low_price": 110,
+                "trigger": 85,
+                "up_price": 90,
+                "low_price": 75,
                 "leverage": 3,
                 "atr": 5.6
             }
         }
-        
+        ,{
+            "FIL_CB_UP": {
+                "sysbol": "FILUSDT",
+                "type": "buy",
+                "trigger": 4.75,
+                "up_price": 7,
+                "low_price": 4.5,
+                "leverage": 3,
+                "atr": 5.6
+            }
+        }
+        ,{
+            "ATOM_CB_UP": {
+                "sysbol": "ATOMUSDT",
+                "type": "buy",
+                "trigger": 10.5,
+                "up_price": 12.5,
+                "low_price": 10,
+                "leverage": 3,
+                "atr": 5.6
+            }
+        }
+        ,{
+            "ATOM_CB_DOWN": {
+                "sysbol": "ATOMUSDT",
+                "type": "sell",
+                "trigger": 12.5,
+                "up_price": 13,
+                "low_price": 10,
+                "leverage": 3,
+                "atr": 5.6
+            }
+        }
     ]
 }
