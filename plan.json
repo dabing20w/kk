@@ -11,13 +11,37 @@
                 "atr": 330
             }
         },
+        
+        {
+            "BTC_UP_TO_DOWN_20230320": {
+                "sysbol": "BTCUSDT",
+                "type": "sell",
+                "trigger": 30090,
+                "up_price": 32000,
+                "low_price": 24500,
+                "leverage": 3,
+                "atr": 330
+            }
+        },
+        {
+            "BTC_UP_TO_up_20230320": {
+                "sysbol": "BTCUSDT",
+                "type": "buy",
+                "trigger": 32000,
+                "up_price": 40000,
+                "low_price": 31000,
+                "leverage": 3,
+                "atr": 330
+            }
+        },
+        
         {
             "BTC_BULL": {
                 "sysbol": "BTCUSDT",
                 "type": "buy",
                 "trigger": 25000,
                 "up_price": 30000,
-                "low_price": 26000,
+                "low_price": 24000,
                 "leverage": 3,
                 "atr": 330
             }
