@@ -7,22 +7,44 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <h1>增加5个输入框的HTML页面</h1>
+    <h1>sop计划</h1>
+    <label for="input0">计划名称</label>
+    <input type="text" id="input0" name="input0" required>
+    <br>
+    <label for="input6">模式 price,ma</label>
+    <input type="text" id="input6" name="input6" required>
+    <br>
 
-    <label for="input1">输入框1</label>
+    <label for="input1">SYSBOL</label>
     <input type="text" id="input1" name="input1" required>
+    <br>
 
-    <label for="input2">输入框2</label>
+    <label for="input9">方向</label>
+    <input type="text" id="input9" name="input9" required>
+    <br>
+
+    <label for="input2">目标价格</label>
     <input type="text" id="input2" name="input2" required>
+    <br>
 
-    <label for="input3">输入框3</label>
+    <label for="input3">上价格</label>
     <input type="text" id="input3" name="input3" required>
+    <br>
 
-    <label for="input4">输入框4</label>
+    <label for="input4">下价格</label>
     <input type="text" id="input4" name="input4" required>
+    <br>
 
-    <label for="input5">输入框5</label>
+    <label for="input5">ATR数量</label>
     <input type="text" id="input5" name="input5" required>
+    <br>
+
+    <label for="input7">MA数量120，90，60</label>
+    <input type="text" id="input7" name="input7" required>
+    <br>
+
+    <label for="input8">杠杆数量</label>
+    <input type="text" id="input8" name="input8" required>
 
     <button type="button" onclick="commitData()">提交</button>
 
@@ -32,11 +54,17 @@
       function commitData() {
         // 将json数据以字符串格式写入服务器
         var str = JSON.stringify({
-          input1: document.getElementById("input1").value,
-          input2: document.getElementById("input2").value,
-          input3: document.getElementById("input3").value,
-          input4: document.getElementById("input4").value,
-          input5: document.getElementById("input5").value
+	    plan_id: document.getElementById("input0").value,
+          model: document.getElementById("input6").value,
+          sysbol: document.getElementById("input1").value,
+          type: document.getElementById("input9").value,
+          trigger_price: document.getElementById("input2").value,
+          up_price: document.getElementById("input3").value,
+	    low_price: document.getElementById("input4").value,
+          leverage: document.getElementById("input8").value,
+          atr: document.getElementById("input5").value,
+	    manum: document.getElementById("input5").value,
+
         });
 
         // 将字符串写入服务器
@@ -48,3 +76,5 @@
     </script>
   </body>
 </html>
+
+
