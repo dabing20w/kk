@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>增加5个输入框的HTML页面</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>增加5个输入框的HTML页面</h1>
+
+    <label for="input1">输入框1</label>
+    <input type="text" id="input1" name="input1" required>
+
+    <label for="input2">输入框2</label>
+    <input type="text" id="input2" name="input2" required>
+
+    <label for="input3">输入框3</label>
+    <input type="text" id="input3" name="input3" required>
+
+    <label for="input4">输入框4</label>
+    <input type="text" id="input4" name="input4" required>
+
+    <label for="input5">输入框5</label>
+    <input type="text" id="input5" name="input5" required>
+
+    <button type="button" onclick="commitData()">提交</button>
+
+    <script src="script.js"></script>
+
+    <script>
+      function commitData() {
+        // 将json数据以字符串格式写入服务器
+        var str = JSON.stringify({
+          input1: document.getElementById("input1").value,
+          input2: document.getElementById("input2").value,
+          input3: document.getElementById("input3").value,
+          input4: document.getElementById("input4").value,
+          input5: document.getElementById("input5").value
+        });
+
+        // 将字符串写入服务器
+        var xhr = new XMLHttpRequest();
+        xhr.open("PUT", "http://example.com/data.json", true);
+        xhr.setRequestHeader("Content-Type", "application/json");
+        xhr.send(str);
+      }
+    </script>
+  </body>
+</html>
