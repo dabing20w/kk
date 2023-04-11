@@ -30,7 +30,7 @@
         {
             "LINK_UP_TO_UP_20230411": {
                 "model":"price",
-                "sysbol": "DOGEUSDT",
+                "sysbol": "LINKUSDT",
                 "type": "buy",
                 "trigger": 8,
                 "up_price": 13,
