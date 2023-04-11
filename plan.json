@@ -13,6 +13,19 @@
                 "atr": 330
             }
         }
+        ,
+        {
+            "BNB_UP_TO_UP_20230411": {
+                "model":"price",
+                "sysbol": "BNBUSDT",
+                "type": "buy",
+                "trigger": 345,
+                "up_price": 295,
+                "low_price": 450,
+                "leverage": 3,
+                "atr": 330
+            }
+        }
         
        
     ]
