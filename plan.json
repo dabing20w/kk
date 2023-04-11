@@ -1,150 +1,19 @@
 {
     "sops": [
-        {
-            "BTC_ZD_UP_20230313": {
-                "model":"model",
-                "sysbol": "BTCUSDT",
-                "type": "buy",
-                "trigger": 22000,
-                "up_price": 25000,
-                "low_price": 20000,
-                "leverage": 3,
-                "atr": 330
-            }
-        },
         
         {
-            "BTC_UP_TO_DOWN_20230320": {
-                "model":"model",
-                "sysbol": "BTCUSDT",
-                "type": "sell",
-                "trigger": 30090,
-                "up_price": 32000,
-                "low_price": 24500,
-                "leverage": 3,
-                "atr": 330
-            }
-        },
-        {
-            "BTC_UP_TO_up_20230320": {
-                "model":"model",
-                "sysbol": "BTCUSDT",
+            "ADA_UP_TO_UP_20230411": {
+                "model":"price",
+                "sysbol": "ADAUSDT",
                 "type": "buy",
-                "trigger": 32000,
-                "up_price": 40000,
-                "low_price": 31000,
+                "trigger": 0.42,
+                "up_price": 0.55,
+                "low_price": 0.34,
                 "leverage": 3,
                 "atr": 330
             }
-        },
+        }
         
-        {
-            "BTC_BULL": {
-                "model":"model",
-                "sysbol": "BTCUSDT",
-                "type": "buy",
-                "trigger": 25000,
-                "up_price": 30000,
-                "low_price": 24000,
-                "leverage": 3,
-                "atr": 330
-            }
-        },
-        {
-            "ETH_ZD_BUY": {
-                "model":"model",
-                "sysbol": "ETHUSDT",
-                "type": "buy",
-                "trigger": 1385,
-                "up_price": 1478,
-                "low_price": 1384,
-                "leverage": 3,
-                "atr": 28
-            }
-        },
-        {
-            "ETH_BULL_UP": {
-                "model":"model",
-                "sysbol": "ETHUSDT",
-                "type": "buy",
-                "trigger": 1750,
-                "up_price": 2500,
-                "low_price": 1500,
-                "leverage": 3,
-                "atr": 30
-            }
-        },
-        {
-            "ETH_CB_DOWN": {
-                "model":"model",
-                "sysbol": "ETHUSDT",
-                "type": "sell",
-                "trigger": 2000,
-                "up_price": 1750,
-                "low_price": 2150,
-                "leverage": 3,
-                "atr": 5
-            }
-        },
-        {
-            "LTC_CB_UP": {
-                "model":"model",
-                "sysbol": "LTCUSDT",
-                "type": "buy",
-                "trigger": 85,
-                "up_price": 100,
-                "low_price": 75,
-                "leverage": 3,
-                "atr": 5.6
-            }
-        }
-        ,{
-            "LTC_CB_DOWN": {
-                "model":"model",
-                "sysbol": "LTCUSDT",
-                "type": "sell",
-                "trigger": 85,
-                "up_price": 90,
-                "low_price": 75,
-                "leverage": 3,
-                "atr": 5.6
-            }
-        }
-        ,{
-            "FIL_CB_UP": {
-                "model":"model",
-                "sysbol": "FILUSDT",
-                "type": "buy",
-                "trigger": 4.75,
-                "up_price": 7,
-                "low_price": 4.5,
-                "leverage": 3,
-                "atr": 5.6
-            }
-        }
-        ,{
-            "ATOM_CB_UP": {
-                "model":"model",
-                "sysbol": "ATOMUSDT",
-                "type": "buy",
-                "trigger": 10.5,
-                "up_price": 12.5,
-                "low_price": 10,
-                "leverage": 3,
-                "atr": 5.6
-            }
-        }
-        ,{
-            "ATOM_CB_DOWN": {
-                "model":"model",
-                "sysbol": "ATOMUSDT",
-                "type": "sell",
-                "trigger": 12.5,
-                "up_price": 13,
-                "low_price": 10,
-                "leverage": 3,
-                "atr": 5.6
-            }
-        }
+       
     ]
 }
