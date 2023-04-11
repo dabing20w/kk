@@ -39,6 +39,19 @@
                 "atr": 330
             }
         }
+        ,
+        {
+            "UNI_UP_TO_UP_20230411": {
+                "model":"price",
+                "sysbol": "UNIUSDT",
+                "type": "buy",
+                "trigger": 6.5,
+                "up_price": 10,
+                "low_price": 4.9,
+                "leverage": 3,
+                "atr": 330
+            }
+        }
        
     ]
 }
