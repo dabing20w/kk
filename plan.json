@@ -52,6 +52,19 @@
                 "atr": 330
             }
         }
+        ,
+        {
+            "AR_UP_TO_UP_20230411": {
+                "model":"price",
+                "sysbol": "ARUSDT",
+                "type": "buy",
+                "trigger": 9,
+                "up_price": 17,
+                "low_price": 8,
+                "leverage": 3,
+                "atr": 330
+            }
+        }
        
     ]
 }
