@@ -1,70 +1,100 @@
 {
-    "sops": [
-        
-        {
-            "ADA_UP_TO_UP_20230411": {
-                "model":"price",
-                "sysbol": "ADAUSDT",
-                "type": "buy",
-                "trigger": 0.42,
-                "up_price": 0.55,
-                "low_price": 0.34,
-                "leverage": 3,
-                "atr": 330
-            }
-        }
-        ,
-        {
-            "BNB_UP_TO_UP_20230411": {
-                "model":"price",
-                "sysbol": "BNBUSDT",
-                "type": "buy",
-                "trigger": 345,
-                "up_price": 295,
-                "low_price": 450,
-                "leverage": 3,
-                "atr": 330
-            }
-        }
-        ,
-        {
-            "LINK_UP_TO_UP_20230411": {
-                "model":"price",
-                "sysbol": "LINKUSDT",
-                "type": "buy",
-                "trigger": 8,
-                "up_price": 13,
-                "low_price": 6.5,
-                "leverage": 3,
-                "atr": 330
-            }
-        }
-        ,
-        {
-            "UNI_UP_TO_UP_20230411": {
-                "model":"price",
-                "sysbol": "UNIUSDT",
-                "type": "buy",
-                "trigger": 6.5,
-                "up_price": 10,
-                "low_price": 4.9,
-                "leverage": 3,
-                "atr": 330
-            }
-        }
-        ,
-        {
-            "AR_UP_TO_UP_20230411": {
-                "model":"price",
-                "sysbol": "ARUSDT",
-                "type": "buy",
-                "trigger": 9,
-                "up_price": 17,
-                "low_price": 8,
-                "leverage": 3,
-                "atr": 330
-            }
-        }
-       
-    ]
+  "sops": [
+    {
+      "ADA_UP_TO_UP_20230411": {
+        "model": "price",
+        "sysbol": "ADAUSDT",
+        "type": "buy",
+        "trigger": 0.42,
+        "up_price": 0.55,
+        "low_price": 0.34,
+        "leverage": 3,
+        "atr": 330
+      }
+    },
+    {
+      "BNB_UP_TO_UP_20230411": {
+        "model": "price",
+        "sysbol": "BNBUSDT",
+        "type": "buy",
+        "trigger": 345,
+        "up_price": 295,
+        "low_price": 450,
+        "leverage": 3,
+        "atr": 330
+      }
+    },
+    {
+      "LINK_UP_TO_UP_20230411": {
+        "model": "price",
+        "sysbol": "LINKUSDT",
+        "type": "buy",
+        "trigger": 8,
+        "up_price": 13,
+        "low_price": 6.5,
+        "leverage": 3,
+        "atr": 330
+      }
+    },
+    {
+      "UNI_UP_TO_UP_20230411": {
+        "model": "price",
+        "sysbol": "UNIUSDT",
+        "type": "buy",
+        "trigger": 6.5,
+        "up_price": 10,
+        "low_price": 4.9,
+        "leverage": 3,
+        "atr": 330
+      }
+    },
+    {
+      "AR_UP_TO_UP_20230411": {
+        "model": "price",
+        "sysbol": "ARUSDT",
+        "type": "buy",
+        "trigger": 9,
+        "up_price": 17,
+        "low_price": 8,
+        "leverage": 3,
+        "atr": 330
+      }
+    },
+    {
+      "XRP_UP_TO_UP_20230411": {
+        "model": "price",
+        "sysbol": "XRPUSDT",
+        "type": "buy",
+        "trigger": 0.368,
+        "up_price": 0.5,
+        "low_price": 0.3,
+        "leverage": 3,
+        "atr": 330
+      }
+    },
+    {
+      "DOGE_UP_TO_UP_20230411": {
+        "model": "price",
+        "sysbol": "DOGEUSDT",
+        "type": "buy",
+        "trigger": 0.1,
+        "up_price": 0.15,
+        "low_price": 0.65,
+        "leverage": 3,
+        "atr": 330
+      }
+    },
+    {
+      "DOT_UP_TO_UP_20230411": {
+        "model": "price",
+        "sysbol": "DOTUSDT",
+        "type": "buy",
+        "trigger": 7.5,
+        "up_price": 16,
+        "low_price": 5.5,
+        "leverage": 3,
+        "atr": 330
+      }
+    }
+  ]
 }
