@@ -63,7 +63,7 @@
     {
       "XRP_UP_TO_UP_20230411": {
         "model": "price",
-        "sysbol": "XRPUSDT",
+        "symbol": "XRPUSDT",
         "type": "buy",
         "trigger": 0.368,
         "up_price": 0.5,
