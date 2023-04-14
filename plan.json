@@ -5,8 +5,8 @@
         "model": "price",
         "sysbol": "ADAUSDT",
         "type": "buy",
-        "trigger": 0.42,
-        "up_price": 0.55,
+        "trigger": 0.4246,
+        "up_price": 0.7,
         "low_price": 0.34,
         "leverage": 3,
         "atr": 330
