@@ -3,7 +3,7 @@
     {
       "ADA_UP_TO_UP_20230411": {
         "model": "price",
-        "sysbol": "ADAUSDT",
+        "symbol": "ADAUSDT",
         "type": "buy",
         "trigger": 0.4246,
         "up_price": 0.7,
@@ -15,7 +15,7 @@
     {
       "BNB_UP_TO_UP_20230411": {
         "model": "price",
-        "sysbol": "BNBUSDT",
+        "symbol": "BNBUSDT",
         "type": "buy",
         "trigger": 345,
         "up_price": 295,
@@ -27,7 +27,7 @@
     {
       "LINK_UP_TO_UP_20230411": {
         "model": "price",
-        "sysbol": "LINKUSDT",
+        "symbol": "LINKUSDT",
         "type": "buy",
         "trigger": 8,
         "up_price": 13,
@@ -39,7 +39,7 @@
     {
       "UNI_UP_TO_UP_20230411": {
         "model": "price",
-        "sysbol": "UNIUSDT",
+        "symbol": "UNIUSDT",
         "type": "buy",
         "trigger": 6.5,
         "up_price": 10,
@@ -51,7 +51,7 @@
     {
       "AR_UP_TO_UP_20230411": {
         "model": "price",
-        "sysbol": "ARUSDT",
+        "symbol": "ARUSDT",
         "type": "buy",
         "trigger": 9,
         "up_price": 17,
@@ -75,7 +75,7 @@
     {
       "DOGE_UP_TO_UP_20230411": {
         "model": "price",
-        "sysbol": "DOGEUSDT",
+        "symbol": "DOGEUSDT",
         "type": "buy",
         "trigger": 0.1,
         "up_price": 0.15,
@@ -87,7 +87,7 @@
     {
       "DOT_UP_TO_UP_20230411": {
         "model": "price",
-        "sysbol": "DOTUSDT",
+        "symbol": "DOTUSDT",
         "type": "buy",
         "trigger": 7.5,
         "up_price": 16,
