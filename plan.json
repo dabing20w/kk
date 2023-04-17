@@ -17,7 +17,7 @@
         "model": "price",
         "symbol": "BNBUSDT",
         "type": "buy",
-        "trigger": 345,
+        "trigger": 346,
         "up_price": 295,
         "low_price": 450,
         "leverage": 3,
