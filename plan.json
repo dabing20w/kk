@@ -18,8 +18,8 @@
         "symbol": "BNBUSDT",
         "type": "buy",
         "trigger": 346,
-        "up_price": 295,
-        "low_price": 450,
+        "up_price": 450,
+        "low_price": 296,
         "leverage": 3,
         "atr": 330
       }
