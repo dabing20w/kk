@@ -94,7 +94,8 @@
         "low_price": 5.5,
         "leverage": 3,
         "atr": 330
-      },
+      }
+    },
     {
       "AVAX_UP_TO_UP_20230411": {
         "model": "price",
