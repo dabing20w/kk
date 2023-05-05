@@ -5,9 +5,22 @@
         "model": "price",
         "symbol": "AVAXUSDT",
         "type": "buy",
-        "trigger": 345,
-        "up_price": 295,
-        "low_price": 450,
+        "trigger": 17.3,
+        "up_price": 21,
+        "low_price": 16.41,
+        "leverage": 3,
+        "atr": 330
+      }
+    }
+    ,
+    {
+      "LINKUP_20230506": {
+        "model": "price",
+        "symbol": "LINKUSDT",
+        "type": "buy",
+        "trigger": 7.3,
+        "up_price": 8.5,
+        "low_price": 6.8,
         "leverage": 3,
         "atr": 330
       }
