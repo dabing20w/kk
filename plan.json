@@ -1,26 +1,16 @@
 {
   "sops": [
-    
     {
-        "AVAX_UP": {
-            "sysbol": "AVAXUSDT",
-            "type": "buy",
-            "trigger": 17.66,
-            "up_price": 21,
-            "low_price": 17.15,
-            "leverage": 3
-        }
-    }
-    ,
-    {
-        "LINK_UP": {
-            "sysbol": "LINKUSDT",
-            "type": "buy",
-            "trigger": 7.3,
-            "up_price": 8.5,
-            "low_price": 6.7,
-            "leverage": 3
-        }
+      "AVAXUP_20230506": {
+        "model": "price",
+        "symbol": "AVAXUSDT",
+        "type": "buy",
+        "trigger": 345,
+        "up_price": 295,
+        "low_price": 450,
+        "leverage": 3,
+        "atr": 330
+      }
     }
   ]
 }
