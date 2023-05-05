@@ -25,5 +25,57 @@
         "atr": 330
       }
     }
+        ,
+    {
+      "BNBUP_20230506": {
+        "model": "price",
+        "symbol": "BNBUSDT",
+        "type": "buy",
+        "trigger": 330,
+        "up_price": 360,
+        "low_price": 323,
+        "leverage": 3,
+        "atr": 330
+      }
+    }
+     ,
+    {
+      "SOLUP_20230506": {
+        "model": "price",
+        "symbol": "SOLUSDT",
+        "type": "buy",
+        "trigger": 24,
+        "up_price": 30,
+        "low_price": 21,
+        "leverage": 3,
+        "atr": 330
+      }
+    }
+     ,
+    {
+      "ATOMUP_20230506": {
+        "model": "price",
+        "symbol": "ATOMUSDT",
+        "type": "buy",
+        "trigger": 12,
+        "up_price": 15,
+        "low_price": 10.5,
+        "leverage": 3,
+        "atr": 330
+      }
+    }
+    ,
+    {
+      "FILUP_20230506": {
+        "model": "price",
+        "symbol": "FILUSDT",
+        "type": "buy",
+        "trigger": 5.7,
+        "up_price": 9,
+        "low_price": 5,
+        "leverage": 3,
+        "atr": 330
+      }
+    }
   ]
 }
