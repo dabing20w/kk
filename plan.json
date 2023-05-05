@@ -77,5 +77,18 @@
         "atr": 330
       }
     }
+    ,
+    {
+      "ARBUP_20230506": {
+        "model": "price",
+        "symbol": "FILUSDT",
+        "type": "buy",
+        "trigger": 1.37,
+        "up_price": 1.7,
+        "low_price": 1.288,
+        "leverage": 3,
+        "atr": 330
+      }
+    }
   ]
 }
