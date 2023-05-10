@@ -16,9 +16,9 @@
     {
       "ETHUP_20230510": {
         "model": "price",
-        "symbol": "LINKUSDT",
+        "symbol": "ETHUSDT",
         "type": "buy",
-        "trigger": 1860,
+        "trigger": 1870,
         "up_price": 1895,
         "low_price": 1830,
         "leverage": 3,
