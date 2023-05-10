@@ -14,13 +14,13 @@
     }
     ,
     {
-      "LINKUP_20230506": {
+      "ETHUP_20230510": {
         "model": "price",
         "symbol": "LINKUSDT",
         "type": "buy",
-        "trigger": 7.3,
-        "up_price": 8.5,
-        "low_price": 6.8,
+        "trigger": 1860,
+        "up_price": 1895,
+        "low_price": 1830,
         "leverage": 3,
         "atr": 330
       }
@@ -31,61 +31,61 @@
         "model": "price",
         "symbol": "BNBUSDT",
         "type": "buy",
-        "trigger": 330,
-        "up_price": 360,
-        "low_price": 323,
+        "trigger": 315,
+        "up_price": 330,
+        "low_price": 310,
         "leverage": 3,
         "atr": 330
       }
     }
      ,
     {
-      "SOLUP_20230506": {
+      "ADAUP_20230506": {
         "model": "price",
-        "symbol": "SOLUSDT",
+        "symbol": "ADAUSDT",
         "type": "buy",
-        "trigger": 24,
-        "up_price": 30,
-        "low_price": 21,
+        "trigger": 0.367,
+        "up_price": 0.38,
+        "low_price": 0.36,
         "leverage": 3,
         "atr": 330
       }
     }
      ,
     {
-      "ATOMUP_20230506": {
+      "DOGEUP_20230506": {
         "model": "price",
-        "symbol": "ATOMUSDT",
+        "symbol": "DOGEUSDT",
         "type": "buy",
-        "trigger": 12,
-        "up_price": 15,
-        "low_price": 10.5,
+        "trigger": 0.7356,
+        "up_price": 0.7895,
+        "low_price": 0.7162,
         "leverage": 3,
         "atr": 330
       }
     }
     ,
     {
-      "FILUP_20230506": {
+      "MATICUP_20230506": {
         "model": "price",
-        "symbol": "FILUSDT",
+        "symbol": "MATICUSDT",
         "type": "buy",
-        "trigger": 5.7,
-        "up_price": 9,
-        "low_price": 5,
+        "trigger": 0.885,
+        "up_price": 0.95,
+        "low_price": 0.86,
         "leverage": 3,
         "atr": 330
       }
     }
     ,
     {
-      "ARBUP_20230506": {
+      "AVAXUP_20230506": {
         "model": "price",
-        "symbol": "FILUSDT",
+        "symbol": "AVAXUSDT",
         "type": "buy",
-        "trigger": 1.37,
-        "up_price": 1.7,
-        "low_price": 1.288,
+        "trigger": 15.57,
+        "up_price": 16.47,
+        "low_price": 15.20,
         "leverage": 3,
         "atr": 330
       }
