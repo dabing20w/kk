@@ -1,13 +1,13 @@
 {
   "sops": [
     {
-      "AVAXUP_20230506": {
+      "BTCUP_20230510": {
         "model": "price",
-        "symbol": "AVAXUSDT",
+        "symbol": "BTCUSDT",
         "type": "buy",
-        "trigger": 17.3,
-        "up_price": 21,
-        "low_price": 16.41,
+        "trigger": 27815,
+        "up_price": 28290,
+        "low_price": 27370,
         "leverage": 3,
         "atr": 330
       }
