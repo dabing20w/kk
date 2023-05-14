@@ -12,6 +12,19 @@
         "atr": 330
       }
     }
+    ,
+    {
+      "ETHUP_20230514": {
+        "model": "price",
+        "symbol": "BTCUSDT",
+        "type": "buy",
+        "trigger": 1741,
+        "up_price": 1800,
+        "low_price": 1700,
+        "leverage": 3,
+        "atr": 330
+      }
+    }
 
   
     
