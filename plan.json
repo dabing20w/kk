@@ -1,94 +1,19 @@
 {
   "sops": [
     {
-      "BTCUP_20230510": {
+      "BTCUP_20230514": {
         "model": "price",
         "symbol": "BTCUSDT",
         "type": "buy",
-        "trigger": 27815,
-        "up_price": 28290,
-        "low_price": 27370,
+        "trigger": 27078,
+        "up_price": 27800,
+        "low_price": 26578,
         "leverage": 3,
         "atr": 330
       }
     }
-    ,
-    {
-      "ETHUP_20230510": {
-        "model": "price",
-        "symbol": "ETHUSDT",
-        "type": "buy",
-        "trigger": 1870,
-        "up_price": 1895,
-        "low_price": 1830,
-        "leverage": 3,
-        "atr": 330
-      }
-    }
-        ,
-    {
-      "BNBUP_20230506": {
-        "model": "price",
-        "symbol": "BNBUSDT",
-        "type": "buy",
-        "trigger": 315,
-        "up_price": 330,
-        "low_price": 310,
-        "leverage": 3,
-        "atr": 330
-      }
-    }
-     ,
-    {
-      "ADAUP_20230506": {
-        "model": "price",
-        "symbol": "ADAUSDT",
-        "type": "buy",
-        "trigger": 0.367,
-        "up_price": 0.38,
-        "low_price": 0.36,
-        "leverage": 3,
-        "atr": 330
-      }
-    }
-     ,
-    {
-      "DOGEUP_20230506": {
-        "model": "price",
-        "symbol": "DOGEUSDT",
-        "type": "buy",
-        "trigger": 0.7356,
-        "up_price": 0.7895,
-        "low_price": 0.7162,
-        "leverage": 3,
-        "atr": 330
-      }
-    }
-    ,
-    {
-      "MATICUP_20230506": {
-        "model": "price",
-        "symbol": "MATICUSDT",
-        "type": "buy",
-        "trigger": 0.885,
-        "up_price": 0.95,
-        "low_price": 0.86,
-        "leverage": 3,
-        "atr": 330
-      }
-    }
-    ,
-    {
-      "AVAXUP_20230506": {
-        "model": "price",
-        "symbol": "AVAXUSDT",
-        "type": "buy",
-        "trigger": 15.57,
-        "up_price": 16.47,
-        "low_price": 15.20,
-        "leverage": 3,
-        "atr": 330
-      }
-    }
+
+  
+    
   ]
 }
