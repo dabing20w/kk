@@ -25,6 +25,19 @@
         "atr": 330
       }
     }
+    ,
+    {
+      "AVAXUP_20230514": {
+        "model": "price",
+        "symbol": "AVAXUSDT",
+        "type": "buy",
+        "trigger": 15.8,
+        "up_price": 21,
+        "low_price": 14.5,
+        "leverage": 3,
+        "atr": 330
+      }
+    }
 
   
     
