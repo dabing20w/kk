@@ -16,7 +16,7 @@
     {
       "ETHUP_20230514": {
         "model": "price",
-        "symbol": "BTCUSDT",
+        "symbol": "ETHUSDT",
         "type": "buy",
         "trigger": 1741,
         "up_price": 1800,
