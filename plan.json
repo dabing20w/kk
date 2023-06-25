@@ -38,6 +38,20 @@
         "atr": 330
       }
     }
+    ,
+    {
+      "solUP_20230625": {
+        "model": "price",
+        "symbol": "SOLUSDT",
+        "type": "buy",
+        "trigger": 16.75,
+        "up_price": 17.09,
+        "low_price": 16.55,
+        "leverage": 3,
+        "atr": 330
+      }
+    }
+
 
   
     
