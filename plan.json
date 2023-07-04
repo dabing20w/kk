@@ -11,7 +11,33 @@
         "leverage": 3,
         "atr": 330
       }
+    },
+    {
+      "FILUP_20230704_1": {
+        "model": "price",
+        "symbol": "FILUSDT",
+        "type": "buy",
+        "trigger": 4.45,
+        "up_price": 5.54,
+        "low_price": 4.06,
+        "leverage": 10,
+        "atr": 330
+      }
     }
+    ,
+    {
+      "FILUP_20230704_1": {
+        "model": "price",
+        "symbol": "FILUSDT",
+        "type": "buy",
+        "trigger": 4.45,
+        "up_price": 4.9,
+        "low_price": 4.06,
+        "leverage": 10,
+        "atr": 330
+      }
+    }
+    
     
 
   
