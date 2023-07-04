@@ -6,8 +6,8 @@
         "symbol": "APTUSDT",
         "type": "buy",
         "trigger": 8.3,
-        "up_price": 7.5,
-        "low_price": 9.5,
+        "up_price": 9.5,
+        "low_price": 7.5,
         "leverage": 3,
         "atr": 330
       }
