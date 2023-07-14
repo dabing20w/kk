@@ -8,7 +8,19 @@
         "trigger": 0.3375,
         "up_price": 0.38,
         "low_price": 0.33,
-        "leverage": 3,
+        "leverage": 10,
+        "atr": 330
+      }
+    }
+    ,{
+      "SOLUP_20230714": {
+        "model": "price",
+        "symbol": "SOLUSDT",
+        "type": "buy",
+        "trigger": 27,
+        "up_price": 37,
+        "low_price": 26,
+        "leverage": 10,
         "atr": 330
       }
     }
