@@ -11,19 +11,7 @@
         "leverage": 3,
         "atr": 330
       }
-    },
-      {
-      "ADAUP_20230714": {
-        "model": "price",
-        "symbol": "ADAUSDT",
-        "type": "buy",
-        "trigger": 0.3375,
-        "up_price": 0.38,
-        "low_price": 0.33,
-        "leverage": 3,
-        "atr": 330
-      }
-    },
+    }
     
   ]
 }
