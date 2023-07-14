@@ -24,6 +24,19 @@
         "atr": 330
       }
     }
+     ,{
+      "XRPUP_20230714": {
+        "model": "price",
+        "symbol": "XRPUSDT",
+        "type": "buy",
+        "trigger": 0.6973,
+        "up_price": 0.95,
+        "low_price": 0.68,
+        "leverage": 10,
+        "atr": 330
+      }
+    }
+    
     
   ]
 }
